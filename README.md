@@ -45,7 +45,6 @@ $ ng serve
 <div>
 <br>
 <hr>
-<br>
 </div>
 
 <!-- About Me -->
