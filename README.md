@@ -1,5 +1,6 @@
 <!-- TITLE -->
 <div align="center">
+<span><img src="https://angular.io/assets/images/logos/angularjs/AngularJS-Shield.svg" height=250 ></span>
 <h1>Learning Angular</h1>
 <h4>Completed by Luke Bergmann</h4>
 <hr>
