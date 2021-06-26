@@ -11,6 +11,9 @@
 ## Project Description
 This project is dedicated to learning Angular and TypeScript through [**Angular - The Complete Guide (2021 Edition)**](https://www.udemy.com/course/the-complete-guide-to-angular-2/) instructed by Maximillian Schwarzmüller and taught through Udemy.com
 
+first-app is where practice Angular is stored
+recipe-app is where the main project is stored
+
 
 <!-- Tech Stack-->
 ## Tech Stack Used
