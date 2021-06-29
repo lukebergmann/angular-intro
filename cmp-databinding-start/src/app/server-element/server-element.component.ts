@@ -1,3 +1,5 @@
+// Finished up components and databinding deepdive
+
 import { Component, OnInit, Input, OnChanges, SimpleChanges, DoCheck, AfterContentInit, AfterContentChecked, AfterViewChecked, AfterViewInit, OnDestroy } from '@angular/core';
 
 @Component({
