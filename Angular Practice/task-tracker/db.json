@@ -4,12 +4,12 @@
       "id": 1,
       "text": "Meeting at School",
       "day": "May 6th at 1:30pm",
-      "reminder": false
+      "reminder": true
     },
     {
       "text": "Get Weed",
       "day": "April 20th",
-      "reminder": false,
+      "reminder": true,
       "id": 5
     }
   ]
