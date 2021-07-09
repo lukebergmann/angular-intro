@@ -8,3 +8,5 @@
    - All text values
 3. Boolean
    - Just 'true' or 'false' and not 'truthy' or 'falsy' values
+
+<hr>
