@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-import { HttpClient } from '@angular/common/http';
+import { DataServiceService } from 'src/app/service/data-service.service';
+
 @Component({
   selector: 'app-posts',
   templateUrl: './posts.component.html',
@@ -7,9 +8,32 @@ import { HttpClient } from '@angular/common/http';
 })
 export class PostsComponent implements OnInit {
 
-  constructor(http: HttpClient) { }
+  data: Array<any>;
+  name: String;
+
+
+  constructor(private apiData: DataServiceService) {
+    this.data = new Array<any>();
+    this.name = new String();
+
+  }
 
   ngOnInit(): void {
   }
+
+  getDataFromAPI() {
+    this.apiData.getData().subscribe((data) => {
+      console.log(data);
+      return this.data = data;
+    });
+  }
+
+  postDataFromAPI() {
+    this.apiData.postData().subscribe((data) => {
+      console.log(data);
+      return this.name = data;
+    });
+  }
+
 
 }

@@ -1,1 +1,10 @@
-<p>posts works!</p>
+<button (click)="getDataFromAPI()">Get Data</button>
+
+<input type="text" placeholder="Name" />
+<button (click)="postData()">Post Data</button>
+
+<ul *ngFor="let d of data">
+  <li>{{ d.id }}</li>
+  <li>{{ d.title }}</li>
+  <li>{{ d.body }}</li>
+</ul>
