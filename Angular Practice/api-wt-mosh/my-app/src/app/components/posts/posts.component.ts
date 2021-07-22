@@ -9,12 +9,12 @@ import { DataServiceService } from 'src/app/service/data-service.service';
 export class PostsComponent implements OnInit {
 
   data: Array<any>;
-  name: String;
+  postData: String;
 
 
   constructor(private apiData: DataServiceService) {
     this.data = new Array<any>();
-    this.name = new String();
+    this.postData = new String();
 
   }
 
@@ -31,7 +31,7 @@ export class PostsComponent implements OnInit {
   postDataFromAPI() {
     this.apiData.postData().subscribe((data) => {
       console.log(data);
-      return this.name = data;
+      return this.postData = data;
     });
   }
 
